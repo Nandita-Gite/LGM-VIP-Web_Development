@@ -1,0 +1,51 @@
+.container{
+    text-align: center;
+    margin-top: 23px;
+}
+.heading{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 70px;
+    color:maroon
+}
+table{
+    margin: auto;
+    padding-top: 20px;
+}
+input{
+    font-size: 34px;
+    width: auto;
+    height: 60px;
+    border: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color:brown;
+}
+.button:active{
+    transform: translate(2px);
+    box-shadow: 2px 2px #250202;
+}
+button{
+    font-size: 36px;
+    background-color: coral;
+    width: 102px;
+    height: 78px;
+    border-radius: 10px;
+    border-color: crimson;
+    margin: 2px;
+
+}
+.button:hover{
+    background-color: #ee4d37;
+}
+
+
+.calculator{
+    display: inline-block;
+    padding: 20px;
+    background-color: peachpuff;
+    border-radius: 30px;
+    border: solid;
+    border-color:darkred;
+    border-width: 7px;
+}

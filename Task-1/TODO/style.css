@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: #e65d5d;
+    box-sizing: border-box;
+}
+
+h1 {
+	color: #72093a;
+	font-size: 3rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 5rem 0 3rem; 
+	font-family: 'EB Garamond', serif;
+}
+
+.title{
+	color: #3a1a30;
+	font-weight: 800;
+}
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+    font-family: 'EB Garamond', serif;
+    background-color: bisque;
+}
+
+.add{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: #ffb62f;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.add:hover{
+	opacity: 0.7;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.item{
+	padding: 0.5rem;
+	border-bottom: 4px solid #1d680a;
+	margin-bottom: 1.5rem;
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+    font-family: 'EB Garamond', serif;
+	color: rgb(255, 255, 255);
+	font-size: 1.4rem;
+	width: 245px;
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+    font-weight: bold;
+	color: #220888;
+	font-size: 1.4rem;
+	font-family: 'EB Garamond', serif;
+	margin: 0 1.2rem;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+    border: none;
+    font-weight: bold;
+	color: #080505;
+	font-size: 1.4rem;
+	font-family: 'EB Garamond', serif;
+	cursor: pointer;
+}
